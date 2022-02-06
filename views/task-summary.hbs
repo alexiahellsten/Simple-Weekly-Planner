@@ -1,0 +1,13 @@
+
+<div class="container task-box">
+<h2>All tasks</h2>
+<p>
+Click on a task to see, edit or delete it.
+</p>
+
+<ul>
+    {{#each todos}}
+    <li><a href="/tasks/{{id}}">{{description}}</a></li>
+    {{/each}}
+</ul>
+</div>

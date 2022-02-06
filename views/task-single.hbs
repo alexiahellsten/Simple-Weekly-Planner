@@ -1,0 +1,19 @@
+<div class="container task-box-single">
+<h2>Task: {{description}}</h2>
+
+<p>
+    <b>Time:</b> 
+    {{created}}
+</p>
+
+<p>
+    <b>Completed:</b> 
+    {{done}}
+</p>
+
+<nav>
+<a href="/tasks/{{id}}/edit">Edit</a>
+<a href="/tasks/{{id}}/delete">Delete</a>
+<a href="/tasks/new">New task</a>
+</nav>
+</div>

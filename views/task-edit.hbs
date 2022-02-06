@@ -1,0 +1,8 @@
+<div class="container task-box">
+
+<h2>Edit a task</h2>
+
+<form action="/tasks/{{id}}/edit" method="post">
+    <input type="text" name="Description" placeholder="description" value="{{description}}">
+    <input type="submit" value="Save">
+</form>

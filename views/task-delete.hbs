@@ -1,0 +1,11 @@
+<div class="container task-box">
+<h2>Do you really want to delete this task?</h2>
+
+<p>
+    {{description}}
+</p>
+
+<form action="/tasks/{{id}}/delete" method="post">
+    <input type="submit" value="Delete">
+</form>
+</div>

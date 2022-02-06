@@ -1,0 +1,10 @@
+
+<div class="container task-box">
+    <h2>Add new task</h2>
+
+    <form action="/tasks/new" method="post">
+        <input type="text" name="description" placeholder="Buy some vegetables.." value="{{description}}">
+        <input type="datetime-local" name="date" value="{{created}}">
+        <input type="submit" value="Save">
+    </form>
+</div>

@@ -13,10 +13,9 @@ To view the project:
 4. Go to localhost:8000 to run the app.
 
 This project was built with:
-HTML
-CSS
-Node.js
-Express
-Handlebars
-Nodemon
-Morgan
+- HTML
+- CSS
+- Javascript
+- Node.js
+- Express
+- Handlebars
